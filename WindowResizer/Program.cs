@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 using Spectre.Console;
+using Spectre.Console.Cli;
 using WindowResizer.Lib.Native;
 
 namespace WindowResizer;
@@ -12,7 +13,15 @@ public static class Program
     {
         try
         {
-            Run();
+            if (!args.Any())
+            {
+                RunInteractive();
+            }
+            else
+            {
+                var app = new CommandApp<ResizeCommand>();
+                app.Run(args);
+            }
         }
         catch (Exception e)
         {
@@ -20,7 +29,7 @@ public static class Program
         }
     }
 
-    private static void Run()
+    private static void RunInteractive()
     {
         AnsiConsole.Write(new Rule("WindowResizer"));
         
