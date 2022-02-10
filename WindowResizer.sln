@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowResizer", "WindowResizer\WindowResizer.csproj", "{6F8E8601-BBF4-4B7A-BF2B-39474DB6BFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowResizer.Lib", "WindowResizer.Lib\WindowResizer.Lib.csproj", "{7DF65808-CBAF-4896-BB55-352666BCE9DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutionItems", ".solutionItems", "{7463C2E5-B35C-4E99-B397-DB86C5404CB6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F8E8601-BBF4-4B7A-BF2B-39474DB6BFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8E8601-BBF4-4B7A-BF2B-39474DB6BFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8E8601-BBF4-4B7A-BF2B-39474DB6BFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8E8601-BBF4-4B7A-BF2B-39474DB6BFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF65808-CBAF-4896-BB55-352666BCE9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF65808-CBAF-4896-BB55-352666BCE9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF65808-CBAF-4896-BB55-352666BCE9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF65808-CBAF-4896-BB55-352666BCE9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
