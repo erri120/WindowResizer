@@ -27,12 +27,6 @@ internal static class Native
     /// </summary>
     [DllImport("user32.dll", SetLastError = true)]
     public static extern int GetWindowTextLengthW(IntPtr windowHandle);
-    
-    // /// <summary>
-    // /// https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getwindowtextw
-    // /// </summary>
-    // [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
-    // public static extern int GetWindowTextW(IntPtr windowHandle, StringBuilder windowTitleStringBuilder, int nMaxCount);
 
     /// <summary>
     /// https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getwindowtextw
